@@ -1,5 +1,5 @@
-/*Project Name : RedBizAuthor Company : SpecThemesProject Date: 24 Feb, 2018Template Developer: vsafaryan50@gmail.com*//*==============================================TABLE OF CONTENT==============================================0. Imports1. Sections2. Headings3. Navbar4. Search5. Top Bar6. CountUps7. Helper Classesa) Text-contentb) Image-propertiesc) Buttonsd) Listse) Color Controlf) Video Boxg) Paginationh) Bordersi) Animations8. Preloader9. Scroll to Top10. Number Boxes11. Service Boxes12. Clients13. Feature Boxes14. Progress Bars15. Price Tables16. Newsletter Form17. Footer18. Blog (Grid, Lists, Post)19. Testmonials20. Projects21. Partners (also Team)22.Feedback Form23. Team, Team Single24. Video Section25. Projects26. Project Single (Page)27. Accordions28. Service Single (Page)29. Callback30. Projects Masonry31. Under Construction32. Shop Single Slider33. Shop Single (Page)34. Shop Products35. 404 (Page)36. Contact (Page)37. Tabs38. Owl Carousel39. Pie Charts40. Chart JS==============================================[END] TABLE OF CONTENT==============================================*//*-----------------------------------------0. Imports-------------------------------------------*/@import url("navigation.css");
-/*-----------------------------------------1. Sections-------------------------------------------*/.section-block {
+@import url("navigation.css");
+.section-block {
  padding: 90px 0px 90px 0px;
  background-color: #fff;
 }
@@ -532,7 +532,7 @@
 .text-content-big p {
  font-size: 15px;
  font-weight: 400;
- color: #999;
+ color: black;
  line-height: 200%;
  margin-bottom: 15px;
 }
@@ -1112,7 +1112,7 @@
  margin-bottom: 10px;
 }
 .service-simple h4:before {
- content: '●';
+ content: 'â—';
  color: #2193f1;
  margin-right: 10px;
 }
@@ -2804,7 +2804,7 @@ footer h3:after {
  font-weight: 500;
 }
 .testmonial-box span:before {
- content: '●';
+ content: 'â—';
  color: #2193f1;
  font-size: 15px;
  margin-right: 5px;
@@ -3127,7 +3127,7 @@ footer h3:after {
  font-weight: 500;
 }
 .feedback-box h5:before {
- content: '●';
+ content: 'â—';
  color: #2193f1;
  font-size: 16px;
  margin-right: 10px;
@@ -4823,7 +4823,7 @@ footer h3:after {
  max-width: 100%;
 }
 .product-tab-body ul li:before {
- content: "●";
+ content: "â—";
  display: inline-block;
  color: #2193f1;
  font-size: 14px;
