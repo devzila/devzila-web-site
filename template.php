@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
    <head>
-      <title>Devzila Software Solutions</title>
+      <title>About Us - Devzila Software Solutions</title>
       <?php include("inc/head.inc.php");?>
    </head>
    <body>
