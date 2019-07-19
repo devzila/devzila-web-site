@@ -2,87 +2,12 @@
 <html lang="zxx">
    <head>
       <title>Devzila Software Solutions</title>
-      <meta charset="UTF-8">
-      <link rel="shortcut icon" href="img/logos/logo-shortcut.png"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-      <link rel="stylesheet" type="text/css" href="css/icomoon.css">
-      <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
-      <link rel="stylesheet" type="text/css" href="css/slider.css">
-      <link rel="stylesheet" type="text/css" href="css/animate.css">
-      <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-      <link rel="stylesheet" type="text/css" href="css/default.css">
-      <link rel="stylesheet" type="text/css" href="css/styles.css" id="colors">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+      <?php include("inc/head.inc.php");?>
    </head>
    <body>
-      <div id="preloader">
-         <div class="row loader">
-            <div class="loader-icon"></div>
-         </div>
-      </div>
-      <header>
-         <nav id="navigation4" class="container navigation">
-            <div class="nav-header">
-               <a class="nav-brand" href="index.html"><img src="img/logos/logo.png" class="main-logo" alt="logo" id="main_logo"></a>
-               <div class="nav-toggle"></div>
-            </div>
-            <div class="nav-menus-wrapper">
-               <ul class="nav-menu align-to-right">
-                  <li>
-                     <a href="index.html">Home</a>             
-                  </li>
-                  <li>
-                     <a href="#">Company</a>
-                     <div class="megamenu-panel nav-submenu">
-                        <div class="megamenu-lists">
-                           <ul class="megamenu-list list-col-2">
-                              <li><a href="about-us.html">About Us</a></li>
-                              <li><a href="#">Why Us</a></li>
-                              <li><a href="#">Our Team</a></li>
-                              <li><a href="#">Career</a></li>
-                           </ul>
-                           <ul class="megamenu-list list-col-2">
-                              <li><a href="#">Our Development Flow</a></li>
-                              <li><a href="#">Technology Stack</a></li>
-                              <li><a href="#">Agile Web Development</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </li>
-                  <li>
-                     <a href="#">Services</a>
-                     <div class="megamenu-panel nav-submenu">
-                        <div class="megamenu-lists">
-                           <ul class="megamenu-list list-col-2">
-                              <li><a href="#">Product Development</a></li>
-                              <li><a href="#">Custom Software Development</a></li>
-                              <li><a href="#">Quality Assurance and Testing Services</a></li>
-                              <li><a href="#">Application Support & Maintenance</a></li>
-                              <li><a href="#">System Admin Support</a></li>
-                           </ul>
-                           <ul class="megamenu-list list-col-2">
-                              <li><a href="#"></a>Online Brand Management</li>
-                              <li><a href="#"></a>Search Engine Optimization and Marketing</li>
-                              <li><a href="#"></a>Social Media Marketing</li>
-                           </ul>
-                        </div>
-                     </div>
-                  </li>
-                  <li>
-                     <a href="#">Projects</a>
-                  </li>
-                  <li>
-                     <a href="#">Blog</a>
-                  </li>
-                  <li>
-                     <a href="#">Contact Us</a>                     
-                  </li>
-               </ul>
-            </div>
-         </nav>
-      </header>
+      <?php include("inc/header.inc.php"); ?>
+
+
       <div class="main-video-section">
          <div class="video-area" id="video-area">
             <div class="player" id="main-video-play" data-property="{videoURL:'https://www.youtube.com/watch?v=FAplyNf7uuE', containment:'#video-area', showControls:false, autoPlay:true, zoom:0, loop:true, mute:true, startAt:7, opacity:1, quality:'low',}"></div>
@@ -461,67 +386,8 @@
             </div>
          </div>
       </div>
-      <footer>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-4 col-sm-6 col-12">
-                  <h3>Quick Navigation</h3>
-                  <ul class="footer-list">
-                     <li><a href="#">About us</a></li>
-                     <li><a href="#">Why Us?</a></li>
-                     <li><a href="#">Our Team</a></li>
-                     <li><a href="#">Careers</a></li>
-                     <li><a href="#">Development Workflow</a></li>
-                     <li><a href="#">Technology Stack</a></li>
-                    <!-- <li><a href="#">Agile Development Methodology</a></li> -->
-                  </ul>
-               </div>
-               <div class="col-md-4 col-sm-6 col-12">
-                  <h3>Our Services</h3>
-                  <ul class="footer-list">
-                     <li><a href="#">Ruby On Rails Consulting</a></li>
-                     <li><a href="#">Mobile App Development</a></li>
-                     <li><a href="#">Hire Ruby on Rails Developer</a></li>
-                     <li><a href="#">Product Development Services</a></li>
-                <!--<li><a href="#">Spree Commerce Development</a></li> -->
-                     <li><a href="#">DevOps Services</a></li> 
-                     <li><a href="#">Ruby on Rails App Development</a></li>
-                  </ul>
-               </div>
-               <div class="col-md-4 col-sm-6 col-12">
-                  <h3>Contact</h3>
-                  <div class="mt-20">
-                     <p>SCO 96 Ground Floor,<br> Sector 5, Panchkula,<br> Haryana 134109</p>
-                     <ul class="social-icons">
-                        <li><a href="https://www.facebook.com/pg/Devzila/about/?ref=page_internal"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/devzila"><i class="fa fa-twitter"></i></a></li>
-                        <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-                        <li><a href="https://www.linkedin.com/company/devzila/about/"><i class="fa fa-linkedin"></i></a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class="footer-bar">
-               <p><span class="primary-color">Devzila</span> &copy; 2019. All Rights Reserved.</p>
-            </div>
-         </div>
-      </footer>
-      <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/owl.carousel.js"></script>
-      <script src="js/navigation.js"></script>
-      <script src="js/navigation.fixed.js"></script>
-      <script src="js/wow.min.js"></script>
-      <script src="js/jquery.counterup.min.js"></script>
-      <script src="js/waypoints.min.js"></script>
-      <script src="js/tabs.min.js"></script>
-      <script src="js/jquery.mb.YTPlayer.min.js"></script>
-      <script src="js/swiper.min.js"></script>
-      <script src="js/isotope.pkgd.min.js"></script>
-      <script src="js/modernizr.js"></script>
-      <script src="js/map.js"></script>
-      <script src="js/main.js"></script>
+
+      <?php include("inc/footer.inc.php"); ?>
+
    </body>
 </html>
