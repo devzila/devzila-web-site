@@ -30,10 +30,10 @@
             <div class="mt-20">
                <p>SCO 96 Ground Floor,<br> Sector 5, Panchkula,<br> Haryana 134109</p>
                <ul class="social-icons">
-                  <li><a href="https://www.facebook.com/pg/Devzila/about/?ref=page_internal"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="https://twitter.com/devzila"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href ="https://www.facebook.com/pg/Devzila/about/?ref=page_internal" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://twitter.com/devzila" target="_blank"><i class="fa fa-twitter"></i></a></li>
                   <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-                  <li><a href="https://www.linkedin.com/company/devzila/about/"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="https://www.linkedin.com/company/devzila/about/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                </ul>
             </div>
          </div>
