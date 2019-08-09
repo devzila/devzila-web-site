@@ -311,7 +311,7 @@
                      </div>
                      <div class="blog-grid-text">
                         <h4 style="text-align: center;">Turnstr</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                        <p>Turnstr is the best way to customize your photos and videos with custom filters and frames.</p>
                      </div>
                   </div>
                </div>
@@ -323,7 +323,7 @@
                      </div>
                      <div class="blog-grid-text">
                         <h4 style="text-align:center;">SnapHubr</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                        <p>Snaphubr is an African high stock image website and marketplace where people simply upload and sell their images.</p>
                      </div>
                   </div>
                </div>
