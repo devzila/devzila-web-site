@@ -219,7 +219,7 @@
                      <div class="team-img"> <img src="img/team/team4.jpg" alt="img"> </div>
                      <div class="team-info">
                         <span>QA Tester</span>
-                        <h4><a href="#">Dalip Kumar</a></h4>
+                        <h4><a href="#">dfdf</a></h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                      </div>
                   </div>

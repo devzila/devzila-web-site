@@ -20,7 +20,7 @@
                   <div class="megamenu-lists">
                      <ul class="megamenu-list list-col-2">
                         <li><a href="about-us.php">About Us</a></li>
-                        <li><a href="#">Why Us</a></li>
+                        <li><a href="why-us.php">Why Us</a></li>
                         <li><a href="#">Our Team</a></li>
                         <li><a href="#">Career</a></li>
                      </ul>
@@ -33,20 +33,17 @@
                </div>
             </li>
             <li>
-               <a href="#">Services</a>
+               <a href="#">Solutions</a>
                <div class="megamenu-panel nav-submenu">
                   <div class="megamenu-lists">
                      <ul class="megamenu-list list-col-2">
-                        <li><a href="#">Product Development</a></li>
-                        <li><a href="#">Custom Software Development</a></li>
-                        <li><a href="#">Quality Assurance and Testing Services</a></li>
-                        <li><a href="#">Application Support & Maintenance</a></li>
-                        <li><a href="#">System Admin Support</a></li>
+                        <li><a href="#">eCommerce Solutions (Solidus/Spree)</a></li>
+                        <li><a href="#">Rental property management solution</a></li>
+                        <li><a href="#">HR/Pay-role solution</a></li>
                      </ul>
                      <ul class="megamenu-list list-col-2">
-                        <li><a href="#"></a>Online Brand Management</li>
-                        <li><a href="#"></a>Search Engine Optimization and Marketing</li>
-                        <li><a href="#"></a>Social Media Marketing</li>
+                        <li><a href='#'>Job portal</a></li>
+                        <li><a href='#'>CMS/CRM</a></li>
                      </ul>
                   </div>
                </div>
