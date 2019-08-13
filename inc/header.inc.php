@@ -6,7 +6,7 @@
 <header>
    <nav id="navigation4" class="container navigation">
       <div class="nav-header">
-         <a class="nav-brand" href="index.php"><img src="img/logos/logo.svg" class="main-logo" alt="logo" id="main_logo"></a>
+         <a class="nav-brand" href="index.php"><img src="img/logos/logo.svg" width="200" height="80" class="main-logo" alt="logo" id="main_logo" ></a>
          <div class="nav-toggle"></div>
       </div>
       <div class="nav-menus-wrapper">
