@@ -1,0 +1,25 @@
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-1{
+	text-align: justify;
+  font-size: 15px !important;
+  font-weight: normal;
+  line-height: 28px;
+  padding-bottom: 0;
+}
+.heading-title{
+  color :#006699;
+  font-size: 23px;
+  text-align: center;
+  font-weight: 800;
+}
+.subheadings-title{
+  color :#006699;
+  font-size: 22px;
+  text-align: left;
+  font-weight: 800;
+}

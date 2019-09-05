@@ -22,7 +22,7 @@
                         <li><a href="about-us.php">About Us</a></li>
                         <li><a href="why-us.php">Why Us</a></li>
                         <li><a href="#">Our Team</a></li>
-                        <li><a href="#">Career</a></li>
+                        <li><a href="career.php">Career</a></li>
                      </ul>
                      <ul class="megamenu-list list-col-2">
                         <li><a href="#">Our Development Flow</a></li>
@@ -55,7 +55,7 @@
                <a href="http://devzila.com/blog/">Blog</a>
             </li>
             <li>
-               <a href="#">Contact Us</a>                     
+               <a href="contact-us.php">Contact Us</a>                     
             </li>
          </ul>
       </div>
