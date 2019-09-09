@@ -44,16 +44,16 @@ try {
 //Server settings
 $mail->SMTPDebug = 0; 
 $mail->isSMTP(); 
-$mail->Host = "";
+$mail->Host = "ssl://smtp.gmail.com";
 $mail->Port = 587;
 $mail->SMTPAuth = true;
-$mail->Username = "";
-$mail->Password = ""; 
+$mail->Username = "info@devzila.com";
+$mail->Password = "ghAde&9s"; 
 //Recipients
-$mail->setFrom('support@devzila.com', 'Devzila Software Solutions');
+$mail->setFrom('info@devzila.com', 'Devzila Software Solutions');
 $mail->addAddress('nilay@devzila.com', 'Nilay Anand');  
 $mail->addCC('chandni@devzila.com', 'Chandni Sapra');
-$mail->addBCC('sahil@devzila.com', 'Sahil');
+
 
 // Content
 $mail->isHTML(true); 

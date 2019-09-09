@@ -19,10 +19,10 @@
                <div class="megamenu-panel nav-submenu">
                   <div class="megamenu-lists">
                      <ul class="megamenu-list list-col-2">
-                        <li><a href="about-us.php">About Us</a></li>
-                        <li><a href="why-us.php">Why Us</a></li>
+                        <li><a href="about-us">About Us</a></li>
+                        <li><a href="why-us">Why Us</a></li>
                         <li><a href="#">Our Team</a></li>
-                        <li><a href="career.php">Career</a></li>
+                        <li><a href="career">Career</a></li>
                      </ul>
                      <ul class="megamenu-list list-col-2">
                         <li><a href="#">Our Development Flow</a></li>
