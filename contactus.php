@@ -1,5 +1,11 @@
 <?php
-
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+// Load Composer's autoloader
+require 'vendor/autoload.php';
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+die();
+}
 // function openConnection(){
 //   $servername = "localhost";
 //   $username = "root";
@@ -42,7 +48,7 @@ function sendRegisterationMail($name,$company,$email,$phone,$services,$skype_id,
 $mail = new PHPMailer(true);
 try {
 //Server settings
-$mail->SMTPDebug = 0; 
+$mail->SMTPDebug = 1; 
 $mail->isSMTP(); 
 $mail->Host = "ssl://smtp.gmail.com";
 $mail->Port = 587;
@@ -52,25 +58,25 @@ $mail->Password = "ghAde&9s";
 //Recipients
 $mail->setFrom('info@devzila.com', 'Devzila Software Solutions');
 $mail->addAddress('nilay@devzila.com', 'Nilay Anand');  
-$mail->addCC('chandni@devzila.com', 'Chandni Sapra');
+$mail->addCC('meenakshi@devzila.com', 'Chandni Sapra');
 
 
 // Content
 $mail->isHTML(true); 
 $mail->Subject = 'New Registration - Devzila';
-$message = file_get_contents('mail/registration.html');
+$mail->body = 'Mail has been sent successfully';
+$message = file_get_contents('contact-us.php');
 $message = str_replace('%namevariable%', $name, $message); 
 $message = str_replace('%emailvariable%', $email, $message); 
 $mail->MsgHTML($message); 
-$mail->AltBody = 'A new user has been registered. name : '. $name . ' email : '.$email;
+$mail->AltBody = 'A new user has been registered. name : '. $name . ' company : '.$company .' email : '. $email .' phone : '.$phone. ' LEADCF2 : '.$services. ' skype_id : '.$skype_id .' description : '.$description;
 $mail->send();
 } catch (Exception $e) {
 echo json_encode(['status' => 'fail','message' => $mail->ErrorInfo]);
 }
 }
-
 // $mysqli = openConnection();
 
-// $stmt = contactUser($mysqli,$name,$company,$email,$phone,$services,$skype_id,$description);
+sendRegisterationMail($name,$company,$email,$phone,$services,$skype_id,$description);
 // closeconnection();
 ?>
