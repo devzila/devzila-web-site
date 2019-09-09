@@ -6,13 +6,13 @@
 <header>
    <nav id="navigation4" class="container navigation">
       <div class="nav-header">
-         <a class="nav-brand" href="index.php"><img src="img/logos/logo.svg" width="200" height="80" class="main-logo" alt="logo" id="main_logo" ></a>
+         <a class="nav-brand" href="index"><img src="img/logos/logo.svg" width="200" height="80" class="main-logo" alt="logo" id="main_logo" ></a>
          <div class="nav-toggle"></div>
       </div>
       <div class="nav-menus-wrapper">
          <ul class="nav-menu align-to-right">
             <li>
-               <a href="index.php">Home</a>             
+               <a href="index">Home</a>             
             </li>
             <li>
                <a href="#">Company</a>
@@ -55,7 +55,7 @@
                <a href="http://devzila.com/blog/">Blog</a>
             </li>
             <li>
-               <a href="contact-us.php">Contact Us</a>                     
+               <a href="contact-us">Contact Us</a>                     
             </li>
          </ul>
       </div>
