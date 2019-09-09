@@ -33,7 +33,7 @@ function sendRegisterationMail($name,$company,$email,$phone,$services,$skype_id,
 
     // Content
   $mail->isHTML(false); 
-  $mail->Subject = 'New Registration - Devzila';
+  $mail->Subject = 'New Enquiry has been generated';
   $mail->Body = 'A new user has been registered. name : '. $name . ' company : '.$company .' email : '. $email .' phone : '.$phone. ' services : '.$services. ' skype_id : '.$skype_id .' description : '.$description;
   $mail->send();
   } 
