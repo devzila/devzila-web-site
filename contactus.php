@@ -31,16 +31,7 @@ $mail->addAddress('meenakshi@devzila.com', 'M Sharma');
 $mail->addCC('meenakshi@devzila.com', 'M S');
 
 
-// Content
-$mail->isHTML(false); 
-$mail->Subject = 'New Registration - Devzila';
-$mail->Body = 'A new user has been registered. name : '. $name . ' company : '.$company .' email : '. $email .' phone : '.$phone. ' services : '.$services. ' skype_id : '.$skype_id .' description : '.$description;
-$mail->send();
-} catch (Exception $e) {
-echo json_encode(['status' => 'fail','message' => $mail->ErrorInfo]);
-}
-}
-// $mysqli = openConnection();
+
 
 sendRegisterationMail($name,$company,$email,$phone,$services,$skype_id,$description);
 // closeconnection();
