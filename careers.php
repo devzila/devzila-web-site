@@ -45,6 +45,7 @@
 					<img src="img/careers/career_4.png" height="200" width="230" backgroundcolor="white">
 				</div>
 			</div>
+		</div>
    		<?php include("inc/footer.inc.php");?>
    </body>
 </html>

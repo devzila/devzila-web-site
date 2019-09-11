@@ -23,15 +23,24 @@ $mail->isSMTP();
 $mail->Host = "smtp.gmail.com";
 $mail->Port = 587;
 $mail->SMTPAuth = true;
-$mail->Username = "info@devzila.com";
-$mail->Password = "ghAde&9s"; 
+$mail->Username = "pixobot12@gmail.com";
+$mail->Password = "bot@1234"; 
 //Recipients
 $mail->setFrom('info@devzila.com', 'Devzila Software Solutions');
-$mail->addAddress('meenakshi@devzila.com', 'M Sharma'); 
-$mail->addCC('meenakshi@devzila.com', 'M S');
+$mail->addAddress('meenakshi@devzila.com', 'ms'); 
+$mail->addCC('meenakshi@devzila.com', 'ms');
 
 
-
+// Content
+$mail->isHTML(true); 
+$mail->Subject = 'New Registration - Devzila';
+$mail->Body = 'A new user has been registered. name : '. $name . ' company : '.$company .' email : '. $email .' phone : '.$phone. ' services : '.$services. ' skype-id : '.$skype_id .' description : '.$description;
+$mail->send();
+} catch (Exception $e) {
+echo json_encode(['status' => 'fail','message' => $mail->ErrorInfo]);
+}
+}
+// $mysqli = openConnection();
 
 sendRegisterationMail($name,$company,$email,$phone,$services,$skype_id,$description);
 // closeconnection();

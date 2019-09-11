@@ -4,10 +4,10 @@
          <div class="col-md-4 col-sm-6 col-12">
             <h3>Quick Navigation</h3>
             <ul class="footer-list">
-               <li><a href="#">About us</a></li>
-               <li><a href="#">Why Us?</a></li>
+               <li><a href="about-us.php">About us</a></li>
+               <li><a href="why-us.php">Why Us?</a></li>
                <li><a href="#">Our Team</a></li>
-               <li><a href="#">Careers</a></li>
+               <li><a href="careers.php">Careers</a></li>
                <li><a href="#">Development Workflow</a></li>
                <li><a href="#">Technology Stack</a></li>
               <!-- <li><a href="#">Agile Development Methodology</a></li> -->
@@ -73,3 +73,5 @@
 <script src="js/modernizr.js"></script>
 <script src="js/map.js"></script>
 <script src="js/main.js"></script>
+<script src="js/emailverification.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>

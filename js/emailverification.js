@@ -1,25 +1,29 @@
-$('contactus.php').submit(function(e){
-	if($('[name="name"]').val() =="" || $('[company="company"]').val() =="company" || $('[email="email"]').val() =="email"  || $('[email="email"]').val() =="" || $('[phone="phone"]').val() =="phone" || $('[phone="phone"]').val() =="" || $('[skype_id="skype_id"]').val() =="skype_id" || $('[services="services"]').val() == "services" || $('[description="description"]').val() ==description);
+$(document).ready(function(){
+	console.log("abc")
+ $('form').submit(function(e){
+
+e.preventDefault();
+console.log("b")
+
+	if($('[name="name"]').val() !="" || $('[name="company"]').val() !=""  || $('[name="email"]').val() !=""  || $('[name="phone"]').val() !=""  || $('[name="skype-id"]').val() !=""  || $('[name="LEADCF2"]').val() !=""  || $('[name="description"]').val() !="" );
 	{
 	alert("All fields are required");
 	return;
 	}
-	e.preventDefault();
-	$.ajax({
-	method:'POST',
-	url:'contactus.php',
-	data : $('contactus').serialize(),
-	success:function(data){
-		data = JSON.parse(data);
-		if(data.status == "success"){
-			alert("Thank you for your interest in our services and the time you took out to fill the form. We have received your request and one of our representatives will get in touch with you in 12 hours.Meanwhile, feel free to browse through the range o other services we offer (IT inrastructure Services, Cloud and Design services)at");
-			setTimeout(function(){
-			window.location="index.php";
-			},3000)
+		$.ajax({
+		method:'POST',
+		url:'contact-us.php',
+		data : $('form').serialize(),
+		success:function(data){
+			data = JSON.parse(data);
+			if(data.status == "success"){
+				$('#successModal').modal('show');
+				
+			}
+			else{
+			
+			}
 		}
-		else{
-			alert("All fields are required");
-		}
-	}
-  })
-	
+	  })
+	  })	
+}) 
