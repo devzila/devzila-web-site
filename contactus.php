@@ -17,7 +17,7 @@ function sendRegisterationMail($name,$company,$email,$phone,$services,$skype_id,
 $mail = new PHPMailer(true);
 try {
 //Server settings
-$mail->SMTPDebug = 1; 
+$mail->SMTPDebug = 0; 
 $mail->isSMTP(); 
 $mail->Host = "smtp.gmail.com";
 $mail->Port = 587;

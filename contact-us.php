@@ -3,7 +3,7 @@
 <head>
 <title>Devzila Software Solutions</title>
 <?php include("inc/head.inc.php");?>
-    <style>
+     <style>
     	.text-center{
       	text-align: center;
     	}
@@ -23,7 +23,7 @@
 				</tr>
 				<tr>
 					<td class="half"><input class="input-styling" maxlength="100" name="email" required="required" type="email" placeholder="Email*"></td>
-					<td class="half"><input class="input-styling"   type="tel" name="phone" pattern="[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{3}" maxlength="10"placeholder="Phone No"></td>
+					<td class="half"><input class="input-styling"   type="tel" name="phone" placeholder="Phone No"></td>
 				</tr>
 				<tr>
 					<td class="half"><input class="input-styling" maxlength="50" name="skype-id" type="text" placeholder="Skype ID" ></td>
