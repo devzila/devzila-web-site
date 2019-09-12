@@ -18,7 +18,7 @@ function sendRegisterationMail($name,$company,$email,$phone,$services,$skype_id,
 $mail = new PHPMailer(true);
 try {
 //Server settings
-$mail->SMTPDebug = 0; 
+$mail->SMTPDebug = 1; 
 $mail->isSMTP(); 
 $mail->Host = "smtp.gmail.com";
 $mail->Port = 587;
@@ -27,8 +27,8 @@ $mail->Username = "pixobot12@gmail.com";
 $mail->Password = "bot@1234"; 
 //Recipients
 $mail->setFrom('info@devzila.com', 'Devzila Software Solutions');
-$mail->addAddress('meenakshi@devzila.com', 'ms'); 
-$mail->addCC('meenakshi@devzila.com', 'ms');
+$mail->addAddress('nilay@devzila.com', 'Nilay Anand'); 
+$mail->addCC('chandni@devzila.com', 'Chandni Sapra');
 
 
 // Content
@@ -36,6 +36,8 @@ $mail->isHTML(true);
 $mail->Subject = 'New Registration - Devzila';
 $mail->Body = 'A new user has been registered. name : '. $name . ' company : '.$company .' email : '. $email .' phone : '.$phone. ' services : '.$services. ' skype-id : '.$skype_id .' description : '.$description;
 $mail->send();
+echo json_encode(['status' => 'success']);
+die();
 } catch (Exception $e) {
 echo json_encode(['status' => 'fail','message' => $mail->ErrorInfo]);
 }

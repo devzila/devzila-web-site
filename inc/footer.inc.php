@@ -74,4 +74,4 @@
 <script src="js/map.js"></script>
 <script src="js/main.js"></script>
 <script src="js/emailverification.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<script src="js/sweetalert.min.js"></script>

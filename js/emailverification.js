@@ -1,29 +1,33 @@
 $(document).ready(function(){
-	console.log("abc")
  $('form').submit(function(e){
-
-e.preventDefault();
-console.log("b")
-
-	if($('[name="name"]').val() !="" || $('[name="company"]').val() !=""  || $('[name="email"]').val() !=""  || $('[name="phone"]').val() !=""  || $('[name="skype-id"]').val() !=""  || $('[name="LEADCF2"]').val() !=""  || $('[name="description"]').val() !="" );
+ 	e.preventDefault();
+  // let name = $('[name="name"]').val();
+	if($('[name="name"]').val() == null || $('[name="email"]').val() == "email")
 	{
-	alert("All fields are required");
-	return;
+		alert('Please fill all the required(*) fields')
+	
+		return;
 	}
 		$.ajax({
 		method:'POST',
-		url:'contact-us.php',
+		url:'contactus.php',
 		data : $('form').serialize(),
 		success:function(data){
+			// alert(data);
+			// console.log(data);
 			data = JSON.parse(data);
 			if(data.status == "success"){
-				$('#successModal').modal('show');
+        swal({
+        title: "Thank You!",
+        text: "Thank You for your interest in our services and the time you took out to fill the form. We have received your request and one of our representatives will get in touch with you within 12 hours. Meanwhile, feel free to browse through the range of other services we offer (IT infrastructure Services, Cloud and Design Services)at</br></br>ccd",
+        icon: "img/logos/logo-shortcut.png",
+        });
 				
 			}
 			else{
 			
 			}
 		}
-	  })
-	  })	
-}) 
+	  });
+	  });	
+}); 
