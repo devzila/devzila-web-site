@@ -35,7 +35,7 @@ $mail->addCC('chandni@devzila.com', 'Chandni Sapra');
 $mail->isHTML(true); 
 $mail->Subject = 'New Registration - Devzila';
 $mail->Body = 'A new user has been registered. name : '. $name . ' company : '.$company .' email : '. $email .' phone : '.$phone. ' services : '.$services. ' skype-id : '.$skype_id .' description : '.$description;
-$mail->send();
+// $mail->send();
 echo json_encode(['status' => 'success']);
 die();
 } catch (Exception $e) {
