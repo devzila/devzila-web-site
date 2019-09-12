@@ -22,7 +22,7 @@
                         <li><a href="about-us">About Us</a></li>
                         <li><a href="why-us">Why Us</a></li>
                         <li><a href="#">Our Team</a></li>
-                        <li><a href="career">Career</a></li>
+                        <li><a href="careers">Careers</a></li>
                      </ul>
                      <ul class="megamenu-list list-col-2">
                         <li><a href="#">Our Development Flow</a></li>

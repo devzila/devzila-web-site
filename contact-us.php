@@ -24,7 +24,7 @@
 					</tr>
 					<tr>
 						<td class="half"><input class="input-styling" maxlength="100" name="email" required="required" type="text" placeholder="Email*"></td>
-						<td class="half"><input class="input-styling"  name="phone" required="required" type="tel" placeholder="Phone No*"></td>
+						<td class="half"><input class="input-styling"   type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required="required" placeholder="Phone No*"></td>
 					</tr>
 					<tr>
 						<td class="half"><input class="input-styling" maxlength="50" name="skype-id" type="text" placeholder="Skype ID" required="required"></td>
