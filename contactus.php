@@ -13,7 +13,6 @@ die();
     $services = $_REQUEST['LEADCF2'];
     $skype_id = $_REQUEST['skype-id'];
     $description = $_REQUEST['description'];
-
 function sendRegisterationMail($name,$company,$email,$phone,$services,$skype_id,$description){
 $mail = new PHPMailer(true);
 try {
@@ -27,23 +26,18 @@ $mail->Username = "pixobot12@gmail.com";
 $mail->Password = "bot@1234"; 
 //Recipients
 $mail->setFrom('info@devzila.com', 'Devzila Software Solutions');
-$mail->addAddress('nilay@devzila.com', 'Nilay Anand'); 
+$mail->addAddress('meenakshi@devzila.com', ''); 
 $mail->addCC('chandni@devzila.com', 'Chandni Sapra');
-
-
 // Content
 $mail->isHTML(true); 
 $mail->Subject = 'New Registration - Devzila';
 $mail->Body = 'A new user has been registered. name : '. $name . ' company : '.$company .' email : '. $email .' phone : '.$phone. ' services : '.$services. ' skype-id : '.$skype_id .' description : '.$description;
-// $mail->send();
+$mail->send();
 echo json_encode(['status' => 'success']);
 die();
 } catch (Exception $e) {
 echo json_encode(['status' => 'fail','message' => $mail->ErrorInfo]);
 }
 }
-// $mysqli = openConnection();
-
 sendRegisterationMail($name,$company,$email,$phone,$services,$skype_id,$description);
-// closeconnection();
 ?>
