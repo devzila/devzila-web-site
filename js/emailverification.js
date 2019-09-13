@@ -16,16 +16,18 @@ $(document).ready(function(){
 					title: "Thank You!",
 					text: "Thank You for your interest in our services and the time you took out to fill the form. We have received your request and one of our representatives will get in touch with you within 12 hours. Meanwhile, feel free to browse through the range of other services we offer (IT infrastructure Services, Cloud and Design Services)at",
 					icon: "img/logos/logo-shortcut.png",
-					button: false,
 					});
+					setTimeout(function(){
+						window.location.href="index.php";
+					},3000);
 				}
 				else{
 					swal({
 					title: "Something went wrong!",	
 					icon: "img/logos/logo-shortcut.png",
-					button: false,
 					});
 				}
+
 			}	
 		});
 	});	

@@ -353,7 +353,7 @@
                   </div>
                </div>
                <div class="col-md-4 col-sm-4 col-12">
-                  <div class="mt-10 right-holder-md"><a href="#" class="primary-button button-sm mt-15-xs">Contact Us Today</a></div>
+                  <div class="mt-10 right-holder-md"><a href="contact-us" class="primary-button button-sm mt-15-xs">Contact Us Today</a></div>
                </div>
             </div>
          </div>

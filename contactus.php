@@ -27,7 +27,7 @@ $mail->Password = "bot@1234";
 //Recipients
 $mail->setFrom('info@devzila.com', 'Devzila Software Solutions');
 $mail->addAddress('meenakshi@devzila.com', 'm s'); 
-$mail->addCC('chandni@devzila.com', 'Chandni Sapra');
+$mail->addCC('meenakshi@devzila.com', 'Chandni Sapra');
 // Content
 $mail->isHTML(true); 
 $mail->Subject = 'New Registration - Devzila';

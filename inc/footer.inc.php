@@ -4,10 +4,10 @@
          <div class="col-md-4 col-sm-6 col-12">
             <h3>Quick Navigation</h3>
             <ul class="footer-list">
-               <li><a href="about-us.php">About us</a></li>
-               <li><a href="why-us.php">Why Us?</a></li>
-               <li><a href="#">Our Team</a></li>
-               <li><a href="careers.php">Careers</a></li>
+               <li><a href="about-us">About us</a></li>
+               <li><a href="why-us">Why Us?</a></li>
+               <li><a href="our-team">Our Team</a></li>
+               <li><a href="careers">Careers</a></li>
                <li><a href="#">Development Workflow</a></li>
                <li><a href="#">Technology Stack</a></li>
               <!-- <li><a href="#">Agile Development Methodology</a></li> -->

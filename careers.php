@@ -41,7 +41,7 @@
 					<h3 class="subheadings-title pt-3">Work Environment</h3>
 					<p class="text-1 pt-4">We employ talented and passionate people favoring expertise over experience. Our employees are encouraged every day to innovate and bring in new ideas. We provide positive challenges, fresh opportunities and dynamic team environment to our employees. We believe it’s the people that make the difference. We are an ‘all-in’ team and embrace an open culture where everyone can contribute. At Devzila Software Solutions, you will be part of a strong, stable corporation with tremendous growth opportunities.</p>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-4 pb-5">
 					<img src="img/careers/career_4.png" height="200" width="230" backgroundcolor="white">
 				</div>
 			</div>

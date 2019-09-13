@@ -1,3 +1,4 @@
+
 <div id="preloader">
    <div class="row loader">
       <div class="loader-icon"></div>
@@ -19,15 +20,15 @@
                <div class="megamenu-panel nav-submenu">
                   <div class="megamenu-lists">
                      <ul class="megamenu-list list-col-2">
-                        <li><a href="about-us">About Us</a></li>
-                        <li><a href="why-us">Why Us</a></li>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="careers">Careers</a></li>
+                        <li><a href="about-us"><i class="fa fa-user" aria-hidden="true"><span class="ml-2">About Us</span></i></a></li>
+                        <li><a href="why-us"><i class="fa fa-question" aria-hidden="true"><span class="ml-2">Why Us</span></i></a></li>
+                        <li><a href="our-team"><i class="fa fa-users" aria-hidden="true"><span class="ml-2">Our Team</span></i></a></li>
+                        <li><a href="careers"><i class="fa fa-trophy" aria-hidden="true"><span class="ml-2">Careers</span></i></a></li>
                      </ul>
                      <ul class="megamenu-list list-col-2">
-                        <li><a href="#">Our Development Flow</a></li>
-                        <li><a href="#">Technology Stack</a></li>
-                        <li><a href="#">Agile Web Development</a></li>
+                        <li><a href="#"><i class="fa fa-recycle" aria-hidden="true"><span class="ml-2">Our Development Flow</span></i></a></li>
+                        <li><a href="#"><i class="fa fa-copy" aria-hidden="true"><span class="ml-2">Technology Stack</span></i></a></li>
+                        <li><a href="#"><i class="fa fa-retweet" aria-hidden="true"><span class="ml-2">Agile Web Development</span></i></a></li>
                      </ul>
                   </div>
                </div>
@@ -37,13 +38,13 @@
                <div class="megamenu-panel nav-submenu">
                   <div class="megamenu-lists">
                      <ul class="megamenu-list list-col-2">
-                        <li><a href="#">eCommerce Solutions (Solidus/Spree)</a></li>
-                        <li><a href="#">Rental property management solution</a></li>
-                        <li><a href="#">HR/Pay-role solution</a></li>
+                        <li><a href="#"><i class="fa fa-code" aria-hidden="true"><span class="ml-2"></span>eCommerce Solutions (Solidus/Spree)</i></a></li>
+                        <li><a href="#"><i class="fa fa-legal" aria-hidden="true"><span class="ml-2">Rental property management solution</span></i></a></li>
+                        <li><a href="#"><i class="fa fa-check" aria-hidden="true"><span class="ml-2">HR/Pay-role solution</span></i></a></li>
                      </ul>
                      <ul class="megamenu-list list-col-2">
-                        <li><a href='#'>Job portal</a></li>
-                        <li><a href='#'>CMS/CRM</a></li>
+                        <li><a href='#'><i class="fa fa-search" aria-hidden="true"><span class="ml-2">Job portal</span></i></a></li>
+                        <li><a href='#'><i class="fa fa-code" aria-hidden="true"><span class="ml-2">CMS/CRM</span></i></a></li>
                      </ul>
                   </div>
                </div>
