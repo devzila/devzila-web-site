@@ -7,10 +7,9 @@
     <body>
 		<?php include("inc/header.inc.php");?>
 		<div class="container">
-			<h2 class="subheadings-title"><img src="img/career.png">Careers</h2>
 			<div class="row"> 
 				<div class="col-sm-8">
-					<h3 class="subheadings-title pt-2">Join an awesome team!</h3>
+					<h3 class="subheadings-title pt-4">Join an awesome team!</h3>
 					<p class="text-1 pt-4">We believe an organization is as good as the people behind it. We are always looking for passionate people in our pursuit to create highest value for our clients. We are an entrepreneurial, fun and ambitious team and we want you to join us! Check out our latest openings and be part of an extraordinary and dynamic workforce.</p>	
 				</div>
 				<div class="col-sm-4">
