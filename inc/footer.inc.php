@@ -8,7 +8,7 @@
                <li><a href="why-us">Why Us?</a></li>
                <li><a href="our-team">Our Team</a></li>
                <li><a href="careers">Careers</a></li>
-               <li><a href="#">Development Workflow</a></li>
+               <li><a href="workflow">Development Workflow</a></li>
                <li><a href="#">Technology Stack</a></li>
               <!-- <li><a href="#">Agile Development Methodology</a></li> -->
             </ul>

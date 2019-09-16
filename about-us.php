@@ -57,7 +57,7 @@
                            </ul>
                         </div>
                      </div> -->
-                     <div class="mt-35"> <a href="#" class="primary-button button-sm mb-15-xs">Contact Us</a> </div>
+                     <div class="mt-35"> <a href="contact-us" class="primary-button button-sm mb-15-xs">Contact Us</a> </div>
                   </div>
                </div>
             </div>
