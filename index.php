@@ -260,79 +260,62 @@
       <div class="section-block-grey">
          <div class="container">
             <div class="section-heading center-holder">
-              <!-- <span>Tips & News</span> -->
+            
                <h3>Portfolio</h3>
-               <!---<div class="section-heading-line"></div>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>
-            </div> -->
+
             <div class="row mt-50">
+
+               <div class="col-md-4 col-sm-4 col-12">
+                  <div class="blog-grid">
+                     <div class="blog-grid-img">
+                        <img src="img/img_6.jpg" alt="img">
+                     </div>
+                     <div class="blog-grid-text">
+                        <h4 style="text-align: center;">NGtU</h4>
+                        <p>Not Going to University is an open platform for students and job seekers. </p>
+                     </div>
+                  </div>
+               </div>
+
                <div class="col-md-4 col-sm-4 col-12">
                   <div class="blog-grid">
                      <div class="blog-grid-img">
                         <img src="img/img_2.jpg" alt="img">
-                       <!-- <div class="data-box-grid">
-                           <h4>07</h4>
-                           <p>Feb</p>
-                        </div> -->
                      </div>
                      <div class="blog-grid-text">
-                        <!--<span>Business</span>-->
                         <h4 style="text-align:center;">Coverwallet</h4>
-                        <!--<ul>
-                           <li><i class="fa fa-calendar"></i>Feb 19, 2018</li>
-                           <li><i class="fa fa-list-ul"></i>Business</li>
-                        </ul> -->
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-                        <!--<div class="mt-20 left-holder"><a href="#" class="primary-button button-sm">Read More</a></div>-->
+                        <p>CoverWallet is a New York based website that offers insurance for businesses.</p>
                      </div>
                   </div>
                </div>
+
                <div class="col-md-4 col-sm-4 col-12">
                   <div class="blog-grid">
                      <div class="blog-grid-img">
                         <img src="img/img_1.jpg" alt="img">
-                        <!--<div class="data-box-grid">
-                           <h4>08</h4>
-                           <p>Feb</p>
-                        </div>-->
                      </div>
                      <div class="blog-grid-text">
-                        <!--<span>Finance</span>-->
                         <h4 style="text-align: center;">Vreasy</h4>
-                        <!--<ul>
-                           <li><i class="fa fa-calendar"></i>Feb 19, 2018</li>
-                           <li><i class="fa fa-list-ul"></i>Finance</li>
-                        </ul>-->
                         <p>Rental apartment management app for property manager allows auto management tools.</p>
-                        <!--<div class="mt-20 left-holder"><a href="#" class="primary-button button-sm">Read More</a></div>-->
                      </div>
                   </div>
                </div>
+               
+            </div>
+
+            <div class="row mt-50">
                <div class="col-md-4 col-sm-4 col-12">
                   <div class="blog-grid">
                      <div class="blog-grid-img">
                         <img src="img/img_3.jpg" alt="img">
-                        <!--<div class="data-box-grid">
-                           <h4>09</h4>
-                           <p>Feb</p>
-                        </div>-->
                      </div>
                      <div class="blog-grid-text">
-                        <!--<span>Consulting</span>-->
                         <h4 style="text-align: center;">Turnstr</h4>
-                        <!--<ul>
-                           <li><i class="fa fa-calendar"></i>Feb 19, 2018</li>
-                           <li><i class="fa fa-list-ul"></i>Consulting</li>
-                        </ul>-->
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-                        <!--<div class="mt-20 left-holder"><a href="#" class="primary-button button-sm">Read More</a></div>-->
+                        <p>Turnstr is the best way to customize your photos and videos with custom filters and frames.</p>
                      </div>
-
                   </div>
                </div>
-            </div>
 
-            <div class="row mt-50">
                <div class="col-md-4 col-sm-4 col-12">
                   <div class="blog-grid">
                      <div class="blog-grid-img">
@@ -340,10 +323,11 @@
                      </div>
                      <div class="blog-grid-text">
                         <h4 style="text-align:center;">SnapHubr</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                        <p>Snaphubr is an African high stock image website and marketplace where people simply upload and sell their images.</p>
                      </div>
                   </div>
                </div>
+
                <div class="col-md-4 col-sm-4 col-12">
                   <div class="blog-grid">
                      <div class="blog-grid-img">
@@ -355,19 +339,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4 col-sm-4 col-12">
-                  <div class="blog-grid">
-                     <div class="blog-grid-img">
-                        <img src="img/img_6.jpg" alt="img">
-                     </div>
-                     <div class="blog-grid-text">
-                        <h4 style="text-align: center;">Tripfab</h4>
-                        
-                        <p>TripFab is a travel marketplace that connects travelers directly with travel businesses. </p>
-                     </div>
-                     
-                  </div>
-               </div>
+               
             </div>
          </div>
       </div>
@@ -381,7 +353,7 @@
                   </div>
                </div>
                <div class="col-md-4 col-sm-4 col-12">
-                  <div class="mt-10 right-holder-md"><a href="#" class="primary-button button-sm mt-15-xs">Contact Us Today</a></div>
+                  <div class="mt-10 right-holder-md"><a href="contact-us" class="primary-button button-sm mt-15-xs">Contact Us Today</a></div>
                </div>
             </div>
          </div>

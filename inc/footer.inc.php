@@ -4,11 +4,11 @@
          <div class="col-md-4 col-sm-6 col-12">
             <h3>Quick Navigation</h3>
             <ul class="footer-list">
-               <li><a href="#">About us</a></li>
-               <li><a href="#">Why Us?</a></li>
-               <li><a href="#">Our Team</a></li>
-               <li><a href="#">Careers</a></li>
-               <li><a href="#">Development Workflow</a></li>
+               <li><a href="about-us">About us</a></li>
+               <li><a href="why-us">Why Us?</a></li>
+               <li><a href="our-team">Our Team</a></li>
+               <li><a href="careers">Careers</a></li>
+               <li><a href="workflow">Development Workflow</a></li>
                <li><a href="#">Technology Stack</a></li>
               <!-- <li><a href="#">Agile Development Methodology</a></li> -->
             </ul>
@@ -30,10 +30,10 @@
             <div class="mt-20">
                <p>SCO 96 Ground Floor,<br> Sector 5, Panchkula,<br> Haryana 134109</p>
                <ul class="social-icons">
-                  <li><a href="https://www.facebook.com/pg/Devzila/about/?ref=page_internal"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="https://twitter.com/devzila"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href ="https://www.facebook.com/pg/Devzila/about/?ref=page_internal" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://twitter.com/devzila" target="_blank"><i class="fa fa-twitter"></i></a></li>
                   <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-                  <li><a href="https://www.linkedin.com/company/devzila/about/"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="https://www.linkedin.com/company/devzila/about/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                </ul>
             </div>
          </div>
@@ -73,3 +73,5 @@
 <script src="js/modernizr.js"></script>
 <script src="js/map.js"></script>
 <script src="js/main.js"></script>
+<script src="js/emailverification.js"></script>
+<script src="js/sweetalert.min.js"></script>
